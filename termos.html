@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Playeras</title>
+</head>
+<body bgcolor="000000">
+	<br><br>
+	<h1><center><font color="ffffff">Gracias los datos se han registrado, vuelva pronto, y mantengase en contacto con nosotros por cualquier medio, que se menciona en la parte izquierda del indice</font></center></h1>
+	<center><img src="logo.png" width="500"></center>
+<script>
+	alert ("Hola Listo para personalizar tus Termos?, Por favor responde lo siguiente")
+	let nombre= prompt("¿Cual es tu nombre?");
+	let celular= prompt("¿Numero celular?");
+	let cantidad= prompt("¿Cuantos necesitas?");
+	let color= prompt("¿De que color te gustarian los Termos");
+	let diseño= prompt("¿que tipo de diseño te gustaria en ellos?");
+	let fecha= prompt("¿Para que fecha serian?, (Normalmente pedimos una semana de anticipacion?");
+	let extra= prompt("¿Algo mas que quisieras agregar?, (si/no)");
+	if (extra=="si" || extra=="sí")
+	{
+		let deextr = prompt("Perfecto, cuéntanos qué más te gustaría agregar:")
+		let r1 = prompt("Este es tu pedido, favor de confirmar:\n" + "Nombre: " + nombre  + "\n" + "Número celular: "  + celular + "\n" + "Cantidad: " + cantidad + "\n" + "Color/Colores: " + color + "\n" + "Diseño: " + diseño + "\n" + "Fecha de entrega: " + fecha + "\n" + "Datos extra" + deextr + "\n" +"Por favor escribe: " + "\n" + "(Confirmar si es correcto) o vuelve a diseñar");
+		if (r1=="confirmar")
+		 {
+		 	alert("El proceso del diseño se ah completado")
+		 }
+		else
+		{
+			alert("Regresando...")
+		}
+	}
+	else
+	{
+		let r1 = prompt("Este es tu pedido, favor de confirmar:\n" + "Nombre: " + nombre  + "\n" + "Número celular: "  + celular + "\n" + "Cantidad: " + cantidad + "\n" + "Color/Colores: " + color + "\n" + "Diseño: " + diseño + "\n" + "Fecha de entrega: " + fecha + "\n" + "Datos extra" + deextr + "\n" +"Por favor escribe: " + "\n" + "(Confirmar si es correcto) o vuelve a diseñar");
+		if (r1=="confirmar")
+		 {
+		 	alert("El proceso del diseño se ah completado")
+		 }
+		else
+		{
+			alert("Regresando...")
+		}	
+	}
+</script>
+</body> 
+</html>
